@@ -8,7 +8,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { persistor, store } from './store/store'
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://restaurant-booking-system.ga:5000/'
+axios.defaults.baseURL = 'https://rtbs-client-f9yuxu84l-gaurangs-projects.vercel.app:5000'
 
 ReactDOM.render(
   <React.StrictMode>
